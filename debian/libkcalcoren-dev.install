@@ -1,0 +1,5 @@
+usr/include/*
+usr/include/kcalcoren/*.h
+usr/include/kcalcoren/K*
+usr/lib/pkgconfig/*.pc
+usr/share/qt4/mkspecs/features/*.prf

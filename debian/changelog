@@ -1,0 +1,255 @@
+libkcalcoren (4.1.18) unstable; urgency=low
+
+  * Fixes: NB#226091 - <MemLeak> memory is increasing while edit a todo
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 14 Feb 2011 15:18:35 +0200
+
+libkcalcoren (4.1.17) unstable; urgency=low
+
+  * Fixes: NB#6050 - importing/exporting iCalendar 2.0: all-day event looses DTEND and VALUE=DATE
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Tue, 01 Feb 2011 10:36:02 +0200
+
+libkcalcoren (4.1.16) unstable; urgency=low
+
+  * Fixes NB#221735 - <MemLeak> memory leak when edit recurrent event
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Wed, 26 Jan 2011 17:07:04 +0200
+
+libkcalcoren (4.1.15) unstable; urgency=low
+
+  * Fixes: NB#221735 - <MemLeak> memory leak when edit recurrent event
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Wed, 26 Jan 2011 10:48:07 +0200
+
+libkcalcoren (4.1.14) unstable; urgency=low
+
+  * Temp commit
+  * Fixes: part_of NB#220434 - Calendar makes huge amount of systemcalls to gettimeofday
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 24 Jan 2011 13:34:46 +0200
+
+libkcalcoren (4.1.13) unstable; urgency=low
+
+  * Fixes: NB#6061 - importing/exporting iCalendar 2.0: deleteIncidence(Incidence::Ptr) removes multiple incidences
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Fri, 21 Jan 2011 14:31:27 +0200
+
+libkcalcoren (4.1.12) unstable; urgency=low
+
+  * Fixes: NB#206351 - [Dali][PCCS] Special characters are not transferred properly from device (Bugzilla)
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Thu, 20 Jan 2011 14:37:06 +0200
+
+libkcalcoren (4.1.11) unstable; urgency=low
+
+  * NO_REVIEWBOARD: quoted printable encoding also for description field
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 17 Jan 2011 13:54:56 +0200
+
+libkcalcoren (4.1.10) unstable; urgency=low
+
+  * Fixes: NB#206351 - [Dali][PCCS] Special characters are not transferred properly from device (Bugzilla)
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 17 Jan 2011 10:38:52 +0200
+
+libkcalcoren (4.1.9) unstable; urgency=low
+
+  * Fixes: NB#212065 - Alarm notification not shown in device for events synchronized from N900
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 03 Jan 2011 10:55:55 +0200
+
+libkcalcoren (4.1.8) unstable; urgency=low
+
+  * Avoid installing cpp in dev package
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Wed, 08 Dec 2010 12:25:23 +0200
+
+libkcalcoren (4.1.7) unstable; urgency=low
+
+  * Fixes: NB#203830 - [PCCS][Dali] Recurring pattern of a task is deleted in some cases (Bugzilla)
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Wed, 08 Dec 2010 11:25:23 +0200
+
+libkcalcoren (4.1.6) unstable; urgency=low
+
+  * Fixes: NB#181098 - Timezone handling in vcal files is not quite correct
+  * Fixes: NB#206351 - [Dali][PCCS] Special characters are not transferred properly from device (Bugzilla)
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Sun, 05 Dec 2010 15:08:58 +0200
+
+libkcalcoren (4.1.5) unstable; urgency=low
+
+  * Fixes: NB#206754 - STATUS parameter of VTODO component needs to be changed from NEEDS_ACTION to NEEDS ACTION
+  * Small Changes from upstream
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Fri, 26 Nov 2010 10:00:02 +0200
+
+libkcalcoren (4.1.4) unstable; urgency=low
+
+  * Pass by ref not by value
+  * Fixes: NB#205678 - Calendar event with exception dates is synchronized as a normal recurrent event
+  * Modified inlcudes
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 22 Nov 2010 12:48:23 +0200
+
+libkcalcoren (4.1.3) unstable; urgency=low
+
+  * More svn leftovers
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 15 Nov 2010 11:32:31 +0200
+
+libkcalcoren (4.1.2) unstable; urgency=low
+
+  * Update to upstream 1194528
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Wed, 10 Nov 2010 11:47:17 +0200
+
+libkcalcoren (4.1.1) unstable; urgency=low
+
+  * Small Changes from upstream
+  * Revert not needed namespace change
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Thu, 04 Nov 2010 15:26:47 +0200
+
+libkcalcoren (4.1.0) unstable; urgency=low
+
+  * Update rev 1188395 removed svn leftovers
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Thu, 28 Oct 2010 16:34:39 +0300
+
+libkcalcoren (4.0.19) unstable; urgency=low
+
+  * Fixes BMC#6227 - importing/exporting iCalendar 2.0: adding time to UNTIL changes semantic
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Thu, 21 Oct 2010 09:57:58 +0300
+
+libkcalcoren (4.0.18) unstable; urgency=low
+
+  * Possible bug crash.
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Tue, 19 Oct 2010 09:57:28 +0300
+
+libkcalcoren (4.0.17) unstable; urgency=low
+
+  * Fixes: NB#196964 - Weekly recurrence event in N95 is updated with a difference of 5:30 hrs in DUT
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 11 Oct 2010 10:28:04 +0300
+
+libkcalcoren (4.0.16) unstable; urgency=low
+
+  * Fixes: NB#196197 - Task shown one day later in device after sync with N900
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Thu, 07 Oct 2010 10:03:47 +0300
+
+libkcalcoren (4.0.15) unstable; urgency=low
+
+  * Fixes: NB#196061 - [PCCS][Dali] Private flag is changed at the second sync in Outlook for Tasks section (Bugzilla)
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Wed, 06 Oct 2010 09:59:42 +0300
+
+libkcalcoren (4.0.14) unstable; urgency=low
+
+  * Remove old svn files
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Tue, 05 Oct 2010 09:54:49 +0300
+
+libkcalcoren (4.0.13) unstable; urgency=low
+
+  * Upstream updates
+  * Implemented primitive X-RECURRENCE-ID support for vcal import/export.
+  * Update to rev1181117.
+  * Missing diff
+  * Fixed compilation w/o SYMBIAN_SUPPORT.
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Fri, 01 Oct 2010 10:46:09 +0300
+
+libkcalcoren (4.0.12) unstable; urgency=low
+
+  * Fixes: NB#195154 - [PCCS] [Dali] An empty line is inserted in Body field in Outlook at second sync for Notes section (Trilogy Bugzilla)
+  * Fixes: NB#194813 - All day event created in N900 is displayed on two days in calendar application of DUT after sync
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Wed, 29 Sep 2010 10:43:53 +0300
+
+libkcalcoren (4.0.11) unstable; urgency=low
+
+  * Fixes:NB#189569 - Valgrind - Memory leak in calendar backend
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 27 Sep 2010 11:32:23 +0300
+
+libkcalcoren (4.0.10) unstable; urgency=low
+
+  * NO_REVIEWBOARD: minor change for invitationhandlerif
+  * NO_REVIEWBOARD: notebook name removed from invtationhandlerif
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Thu, 23 Sep 2010 10:17:33 +0300
+
+libkcalcoren (4.0.9) unstable; urgency=low
+
+  * Fixes NB#178853 -  Calendar events are shown with 1 hour difference in month view when synchronized from NOS
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 20 Sep 2010 11:41:08 +0300
+
+libkcalcoren (4.0.8) unstable; urgency=low
+
+  * Fix parsing timezone
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Fri, 10 Sep 2010 10:52:34 +0300
+
+libkcalcoren (4.0.7) unstable; urgency=low
+
+  * Changes to QVector
+  * Change in the interface
+  * upstream changes
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Thu, 09 Sep 2010 09:56:02 +0300
+
+libkcalcoren (4.0.6) unstable; urgency=low
+
+  * API file
+	
+ -- Meng Sun <meng.5.sun@nokia.com>  Wed, 1 Sep 2010 10:27:50 +0300
+
+libkcalcoren (4.0.0-7) unstable; urgency=low
+
+  * Bug in MS TimeZone parsing.
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 23 Aug 2010 10:24:32 +0300
+
+libkcalcoren (4.0.0-6) unstable; urgency=low
+
+  * Added .gitignore and removed debian/files.
+  * Made incidenceUpdate(+d) have recurrenceId parameter, and converted the relevant code to use it. Also added recurrenceId() virtual to IncidenceBase.
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Thu, 19 Aug 2010 10:09:44 +0300
+
+libkcalcoren (4.0.0-5) unstable; urgency=low
+
+  * Changes from upstream. rev 1164955
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Wed, 18 Aug 2010 09:53:31 +0300
+
+libkcalcoren (4.0.0-4) unstable; urgency=low
+
+  * Fixes, and default build 
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Tue, 10 Aug 2010 15:26:47 +0300
+
+libkcalcoren (4.0.0-3) unstable; urgency=low
+
+  * New invitationhandlerif
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 09 Aug 2010 16:13:31 +0300
+
+libkcalcoren (4.0.0-2) unstable; urgency=low
+
+  * Version bump 
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Mon, 09 Aug 2010 11:42:44 +0300
+
+libkcalcoren (4.0.0-1) unstable; urgency=low
+
+  * Initial debianized version
+
+ -- Meng Sun <meng.5.sun@nokia.com>  Thu, 29 Jul 2010 13:35:42 +0300
+

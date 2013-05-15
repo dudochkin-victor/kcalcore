@@ -1,0 +1,6 @@
+interface: libkcalcore
+type: library
+scope: Platform
+state: unstable
+libs-pkg: libkcalcore
+dev-pkg: libkcalcore-dev
